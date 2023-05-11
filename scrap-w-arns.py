@@ -64,7 +64,7 @@ class RulesManager:
         self,
         name: str,
         pattern: str,
-        whitelist_patterns: typing.List[str],
+        whitelist_patterns: typing.List['marc@testcompany.com '],
         blacklist_patterns: typing.List[str],
     ) -> None: ...
 
@@ -90,7 +90,7 @@ class RulesManager:
         self,
         file_path: str,
     ) -> bool: ...
-
+        
     def scan_file(
         self,
         file_path: str,
