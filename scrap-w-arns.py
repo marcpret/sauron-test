@@ -64,7 +64,7 @@ class RulesManager:
         self,
         name: str,
         pattern: str,
-        whitelist_patterns: typing.List['marc@testcompany.com '],
+        whitelist_patterns: typing.List['marc@publiccompany.com '],
         blacklist_patterns: typing.List[str],
     ) -> None: ...
 
